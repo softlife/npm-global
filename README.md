@@ -31,4 +31,4 @@ Run `npm install` to install all the global packages.
 
 ## AUTHORS
 
-* Steve Thames (@sthames42)
+* Steve Thames [(@sthames42)](https://github.com/sthames42)
