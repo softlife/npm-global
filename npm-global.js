@@ -116,7 +116,7 @@ var links;
 /* version comparison and install packages. */
 /*------------------------------------------*/
 console.log('Configuring global Node environment...')
-run('npm ls -g --json', function(stdout)
+run('npm ls -g --json --depth=0', function(stdout)
   {
   installed = JSON.parse(stdout).dependencies || {};
   doWhile();
